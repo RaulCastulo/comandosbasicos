@@ -67,8 +67,19 @@ cd directorio
 
 **ls**: list directory contents
 
->raco@castu:\~$ ls Archivos/
->archivo1.txt  archivo2.txt  Respaldo
+>raco@castu:\~$ ls Archivos/  
+>archivo1.txt  archivo2.txt  Respaldo  
+
+
+>raco@castu:\~$ ls -l Archivos/  
+>-rw-r--r--  1 raco raco   34  dic 18 05:13 archivo1.txt  
+>-rw-r--r--  1 raco raco   79  dic 18 05:13 archivo2.txt  
+>drwxr-xr-x  2 raco raco 4096  dic 18 05:14 Respaldo  
+
+
+
+
+
 
 
 
