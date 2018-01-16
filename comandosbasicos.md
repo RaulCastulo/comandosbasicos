@@ -190,6 +190,37 @@ cat también puede servir para crear archivos
 >raco@castu:\~$ tail archivo2.txt  
 
 
+**date**:  print or set the system date and time  
+
+>raco@castu:\~$ date    
+
+
+**cal**: displays a calendar  
+
+>raco@castu:\~$ cal -3  
+
+
+**uname**: print system information  
+
+>raco@castu:\~$ uname -a  
+
+**whoami**
+
+>raco@castu:\~$ whoami  
+
+
+**who**: show who is logged on  
+
+>raco@castu:\~$ who  
+
+**w**: Show who is logged on and what they are doing.  
+
+>raco@castu:\~$ w  
+
+
+
+## Ejercicios  
+
 
 
 
