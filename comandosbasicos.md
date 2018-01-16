@@ -76,6 +76,29 @@ cd directorio
 >-rw-r--r--  1 raco raco   79  dic 18 05:13 archivo2.txt  
 >drwxr-xr-x  2 raco raco 4096  dic 18 05:14 Respaldo  
 
+**mkdir**: create directory
+
+mkdir nombre_directorio
+
+raco@castu:\~$ mkdir prueba  
+raco@castu:\~$ ls -l 
+
+**cp**: copy files and directories
+
+cp [opciones] [ruta]origen [ruta]destino
+
+• -i Pregunta si debe sobreescribir cada fichero destino que exista. Si la respuesta no
+comienza por ’y’ o por ’Y’ (o quizá el equivalente local, en español ’s’ o ’S’) no se
+borra.  
+• -r Copia recursivamente los contenidos de directorios.  
+• -a Preserva los atributos del fichero copiado en la medida de lo posible.  
+
+Copiar el fichero perso (que se encuentra en /home/raco/) en el directorio prueba.  
+
+>raco@castu:\~$ cp /home/raco/perso  /home/raco/prueba/
+>raco@castu:\~$ cd prueba/
+>raco@castu:\~$ ls 
+>perso
 
 
 
