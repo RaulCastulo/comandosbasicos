@@ -8,6 +8,20 @@
 
 ![SistemaArchivos2][3]
 
+### Ubicación de archivos y directorios
+
+
+**/home/usuario/documento6.txt**
+
+Para facilitar las cosas existen ciertos directorios especiales:
+
+/ Es el directorio raíz. El superior de todos.
+. Es el directorio actual. En el que nos encontramos en un momento dado.
+.. Es el directorio superior, o directorio padre, al que nos encontramos. El único directorio que no tiene directorio superior es el directorio raíz.
+
+
+
+
 **pwd**: print working directory
 
 [1]: Imagenes/ComandosBasicosLinux.jpg
