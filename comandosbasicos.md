@@ -55,7 +55,7 @@ Estos directorios son almacenados en una variable que la shell consulta para la 
 **pwd**: print working directory  
 
 >raco@castu:~$ pwd  
->home/raco
+>/home/raco
 
 **cd**: change directory
 
