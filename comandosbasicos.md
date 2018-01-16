@@ -3,4 +3,4 @@
 
 
 
-[1]: Imagenes/ComandosBasicosLinux.png
+[1]: Imagenes/ComandosBasicosLinux.jpg
