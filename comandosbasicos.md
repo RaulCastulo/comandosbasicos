@@ -93,6 +93,8 @@ borra.
 • -r Copia recursivamente los contenidos de directorios.  
 • -a Preserva los atributos del fichero copiado en la medida de lo posible.  
 
+
+
 Copiar el fichero perso (que se encuentra en /home/raco/) en el directorio prueba.  
 
 >raco@castu:\~$ cp /home/raco/perso  /home/raco/prueba/  
@@ -100,6 +102,92 @@ Copiar el fichero perso (que se encuentra en /home/raco/) en el directorio prueb
 >raco@castu:\~$ ls  
 >perso  
 
+
+
+Copiar el directorio fonts en el directorio fonts2  
+
+>raco@castu:\~$  cp -r fonts/ fonts2/  
+>raco@castu:\~$ ls -l fonts2/  
+
+
+**mv**: move (rename) files
+
+mv [ruta]origen [ruta]destino
+
+
+Cambiar el nombre del fichero nuevo a viejo.
+>raco@castu:\~$ mv nuevo viejo  
+>raco@castu:\~$ ls -l  
+
+
+
+Mover el fichero viejo al directorio practica
+>raco@castu:\~$ mv viejo practica/  
+>raco@castu:\~$ ls -l practica/  
+
+
+
+Mover el fichero archivo1.txt del directorio Archivos al directorio fonts
+>raco@castu:\~$ mv /home/raco/Archivos/archivo1.txt  /home/raco/fonts/  
+>raco@castu:\~$ ls -l /home/raco/fonts/  
+
+
+**rm**: remove files or directories
+
+• -i Pregunta si debe borrarse cada fichero. Si la respuesta no comienza por ’y’ o por
+’Y’ (o quizá el equivalente local, en español ’s’ o ’S’) no se borra.  
+• -r Borra recursivamente los contenidos de directorios. Borra un directorio y todo
+su contenido.  
+
+
+
+Borrar el fichero perso  
+>raco@castu:\~$ rm perso  
+>raco@castu:\~$  ls  
+
+
+
+Borrar el directorio fonts2  
+>raco@castu:\~$ rm -r fonts2/    
+>raco@castu:\~$ ls     
+
+###### Mostrar contenido de un fichero / cat / more / less  
+
+cat [ruta]fichero  
+
+Mostrar el contenido del fichero archivo2.txt del directorio Archivos  
+
+Primer solución  
+>raco@castu:\~$ cd Archivos/  
+>raco@castu:\~$ cat archivo2.txt  
+
+Segunda Sloución  
+>raco@castu:\~$ cat Archivos/archivo2.txt  
+
+
+cat también puede servir para crear archivos
+
+>raco@castu:\~$ cat >borrar  
+>Hola  
+>como  
+>estas  
+>(C-c)  
+>raco@castu:\~$ cat borrar  
+>Hola  
+>como  
+>estas  
+
+>raco@castu:\~$ more archivo2.txt  
+
+>raco@castu:\~$ less archivo2.txt  
+
+**head**: output the first part of files  
+
+>raco@castu:\~$ head archivo2.txt    
+
+**tail**: output the last part of files  
+
+>raco@castu:\~$ tail archivo2.txt  
 
 
 
