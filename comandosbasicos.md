@@ -230,7 +230,16 @@ cat también puede servir para crear archivos
 
 ## Ejercicios  
 
-
+1. Listar todos los archivos del directorio /bin
+2. Listar todos los archivos, incluidos los ocultos, del directorio raíz.
+3. Cambiarse al directorio /tmp y verificar que el directorio actual ha cambiado.  
+4. Con un solo comando posicionarse en el directorio $HOME y verificar que se está en él.  
+5. Crear los directorios dir1, dir2 y dir3 en el directorio PRUEBA. Dentro de dir1 crear el directorio dir11. Dentro del directorio dir3 crear el directorio dir31.    
+6. Borrar el archivo file1 que esta en el directorio PRUEBA.  
+7. Cambiarse al directorio PRUEBA y renombrar el archivo **file2** a **mensaje**  
+8. Mostrar el contenido del archivo passwd contenido en el directorio /etc  
+9. Copiar el directorio de otro usuario y sus subdirectorios en un directorio llamado respaldo.
+10. Borrar el contenido (archivos y subdirectorios) de la carpeta PRUEBA utilizando un solo comando.  
 
 
 
