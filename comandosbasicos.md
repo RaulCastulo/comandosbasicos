@@ -42,12 +42,12 @@ Es una ruta que parte del directorio actual como origen. Esta ruta sólo es vál
 ### Introducción a los comandos en un sistema GNU/Linux
 Los directorios estándar para almacenar archivos ejecutables (comandos) en un sistema tipo Unix:  
 
-/bin
-/usr/bin
-/usr/local/bin
-/sbin
-/usr/sbin
-/usr/local/sbin
+/bin  
+/usr/bin  
+/usr/local/bin  
+/sbin  
+/usr/sbin  
+/usr/local/sbin  
 
 Estos directorios son almacenados en una variable que la shell consulta para la busqueda de archivos que coincidan con la instrucción escrita por el usuario.  
 
