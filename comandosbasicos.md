@@ -17,7 +17,7 @@ Para facilitar las cosas existen ciertos directorios especiales:
 
 **/** Es el directorio raíz. El superior de todos.  
 **.** Es el directorio actual. En el que nos encontramos en un momento dado.  
-**..** Es el directorio superior, o directorio padre, al que nos encontramos. El único directorio que no tiene directorio superior es el directorio raíz.  
+**..**  Es el directorio superior, o directorio padre, al que nos encontramos. El único directorio que no tiene directorio superior es el directorio raíz.  
 
 
 
