@@ -61,8 +61,8 @@ Estos directorios son almacenados en una variable que la shell consulta para la 
 
 cd directorio
 
->raco@castu:~$ cd Documentos/   
->raco@castu:~$ pwd  
+>raco@castu:\~$ cd Documentos/   
+>raco@castu:\~$ pwd  
 >home/raco/Documentos    
 
 
