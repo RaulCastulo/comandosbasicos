@@ -65,6 +65,10 @@ cd directorio
 >raco@castu:\~$ pwd  
 >home/raco/Documentos    
 
+**ls**: list directory contents
+
+>raco@castu:\~$ ls Archivos/
+>archivo1.txt  archivo2.txt  Respaldo
 
 
 
