@@ -14,6 +14,7 @@
 **/home/usuario/documento6.txt**
 
 Para facilitar las cosas existen ciertos directorios especiales:  
+| Símbolo | Descripción |  
 | ------------- | ------------- |  
 | **/** | Es el directorio raíz. El superior de todos. |  
 | **.** | Es el directorio actual. En el que nos encontramos en un momento dado. |  
