@@ -52,7 +52,10 @@ Los directorios estándar para almacenar archivos ejecutables (comandos) en un s
 Estos directorios son almacenados en una variable que la shell consulta para la busqueda de archivos que coincidan con la instrucción escrita por el usuario.  
 
 
-**pwd**: print working directory
+**pwd**: print working directory  
+
+>raco@castu:~$ pwd
+>home/raco
 
 [1]: Imagenes/ComandosBasicosLinux.jpg
 [2]: Imagenes/SistemaDeArchivos1.PNG
