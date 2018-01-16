@@ -22,7 +22,21 @@ Para facilitar las cosas existen ciertos directorios especiales:
 | **..** | Es el directorio superior, o directorio padre, al que nos encontramos. |  
 
 
+##### Ruta absoluta
+Una ruta absoluta es aquella que parte del directorio raíz. Las rutas absolutas son válidas en cualquier caso.
 
+/home/usuario/.bashrc
+
+/home/raco/Documentos/Directorio\ De\ Respaldo/
+
+"/home/raco/Documentos/Directorio De Respaldo"
+
+##### Ruta relativa
+Es una ruta que parte del directorio actual como origen. Esta ruta sólo es válida desde un directorio actual concreto, es decir, es relativa a un directorio.
+
+../../etc/
+
+../../swapfile
 
 
 **pwd**: print working directory
