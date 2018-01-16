@@ -12,4 +12,4 @@
 
 [1]: Imagenes/ComandosBasicosLinux.jpg
 [2]: Imagenes/SistemaDeArchivos1.PNG
-[3]: Imagenes/SistemaDeArchivos2.png
+[3]: Imagenes/SistetmaDeArchivos2.png
