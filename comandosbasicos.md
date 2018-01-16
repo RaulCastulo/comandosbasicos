@@ -54,8 +54,22 @@ Estos directorios son almacenados en una variable que la shell consulta para la 
 
 **pwd**: print working directory  
 
->raco@castu:~$ pwd
+>raco@castu:~$ pwd  
 >home/raco
+
+**cd**: change directory
+
+cd directorio
+
+>raco@castu:~$  cd Documentos/  
+>raco@castu:~$ pwd  
+>home/raco/Documentos  
+
+
+
+
+
+
 
 [1]: Imagenes/ComandosBasicosLinux.jpg
 [2]: Imagenes/SistemaDeArchivos1.PNG
