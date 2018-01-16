@@ -80,8 +80,8 @@ cd directorio
 
 mkdir nombre_directorio
 
-raco@castu:\~$ mkdir prueba  
-raco@castu:\~$ ls -l 
+>raco@castu:\~$ mkdir prueba  
+>raco@castu:\~$ ls -l 
 
 **cp**: copy files and directories
 
@@ -95,10 +95,12 @@ borra.
 
 Copiar el fichero perso (que se encuentra en /home/raco/) en el directorio prueba.  
 
->raco@castu:\~$ cp /home/raco/perso  /home/raco/prueba/
->raco@castu:\~$ cd prueba/
->raco@castu:\~$ ls 
->perso
+>raco@castu:\~$ cp /home/raco/perso  /home/raco/prueba/  
+>raco@castu:\~$ cd prueba/  
+>raco@castu:\~$ ls  
+>perso  
+
+
 
 
 
