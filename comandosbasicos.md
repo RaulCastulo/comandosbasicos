@@ -3,9 +3,13 @@
 
 
 
-![SistemaArchivos][2]
+![SistemaArchivos1][2]
+
+
+![SistemaArchivos2][3]
 
 **pwd**: print working directory
 
 [1]: Imagenes/ComandosBasicosLinux.jpg
-[2]: Imagenes/SistemaDeArchivos.jpg
+[2]: Imagenes/SistemaDeArchivos1.
+[3]: Imagenes/SistemaDeArchivos2.
