@@ -217,6 +217,15 @@ cat también puede servir para crear archivos
 
 >raco@castu:\~$ w  
 
+**man**: show the manual for command
+
+>raco@castu:\~$ man ls
+
+>raco@castu:\~$ man -k logged  
+
+>raco@castu:\~$ man -f who  
+
+>raco@castu;\~$ man man  
 
 
 ## Ejercicios  
