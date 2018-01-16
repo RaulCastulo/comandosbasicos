@@ -63,7 +63,7 @@ cd directorio
 
 >raco@castu:\~$ cd Documentos/   
 >raco@castu:\~$ pwd  
->home/raco/Documentos    
+>/home/raco/Documentos    
 
 **ls**: list directory contents
 
