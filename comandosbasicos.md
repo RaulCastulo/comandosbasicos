@@ -11,5 +11,5 @@
 **pwd**: print working directory
 
 [1]: Imagenes/ComandosBasicosLinux.jpg
-[2]: Imagenes/SistemaDeArchivos1.
-[3]: Imagenes/SistemaDeArchivos2.
+[2]: Imagenes/SistemaDeArchivos1.PNG
+[3]: Imagenes/SistemaDeArchivos2.png
